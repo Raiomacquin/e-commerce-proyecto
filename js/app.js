@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const validPassword = 'contraseñasecreta123';
 
             if (email === validEmail && password === validPassword) {
-                window.location.href = './html/e-commerce.html';
+                window.location.href = '../html/e-commerce.html';
             } else {
                 alert('Correo o contraseña incorrectos');
             }
